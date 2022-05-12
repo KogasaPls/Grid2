@@ -1,6 +1,19 @@
 ------------------------------------------------------------------------
-                   The zlib/libpng License (Zlib)
-                         Copyright (c) 2011
+SOFTWARE CREDITS
+
+Grid2 Authors:
+
+* Pastamancer & Maia, Jerry, Azethoth
+
+Grid2 modifications, fixes and enhancements:
+
+* Michael, Potje
+
+------------------------------------------------------------------------
+
+SOFTWARE LICENSE
+
+Copyright (c) 2011
 
 This software is provided 'as-is', without any express or implied
 warranty. In no event will the authors be held liable for any damages
@@ -41,17 +54,5 @@ For any commercial use, contact Guillotine first at curse.guillotine@gmail.com
 
 Delete Icon from IcoCentre: <https://www.shareicon.net/delete-remove-cross-92993/>
 License: Free for commercial use.
-
-------------------------------------------------------------------------
-
-SOFTWARE CREDITS
-
-Grid2 Authors:
-
-* Pastamancer & Maia, Jerry, Azethoth
-
-Grid2 modifications, fixes and enhancements:
-
-* Michael, Potje
 
 ------------------------------------------------------------------------

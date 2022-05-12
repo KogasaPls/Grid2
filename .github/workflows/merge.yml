@@ -1,0 +1,22 @@
+name: Scheduled merge
+on: 
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+    # scheduled for 00:00 every Monday
+
+jobs:
+  merge-upstream:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: main             # set the branch to merge to
+          fetch-depth: 0 
+      - name: Merge Upstream
+        uses: KogasaPls/merge-upstream@master
+        with:
+          upstream:  michaelnpsp/Grid2      # set the upstream repo
+          upstream-branch: main   # set the upstream branch to merge from
+          branch: main          # set the branch to merge to
